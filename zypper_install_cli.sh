@@ -13,6 +13,7 @@ sudo zypper install -y \
 	sd        sd-bash-completion        sd-fish-completion                                              \
 	yq        yq-bash-completion        yq-fish-completion                                              \
 	zellij    zellij-bash-completion    zellij-fish-completion                                          \
+	yazi      yazi-bash-completion      yazi-fish-completion                                            \
 	btop                                                                                                \
 	fish                                                                                                \
 	git lazygit                                                                                         \
