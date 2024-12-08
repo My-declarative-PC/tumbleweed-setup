@@ -21,3 +21,8 @@ sudo zypper install -y \
 	stow                                                                                                \
 	yast2-docker                                                                                        \
 	zoxide
+
+# GitHub CLI
+sudo zypper addrepo https://cli.github.com/packages/rpm/gh-cli.repo
+sudo zypper ref
+sudo zypper install gh
