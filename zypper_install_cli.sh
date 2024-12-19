@@ -6,6 +6,7 @@ sudo zypper install -y \
 	eza       eza-bash-completion       eza-fish-completion                                             \
 	fastfetch fastfetch-bash-completion fastfetch-fish-completion                                       \
 	fd        fd-bash-completion        fd-fish-completion                                              \
+ 	fzf       fzf-bash-integration      fzf-fish-integration                                            \
 	gum       gum-bash-completion       gum-fish-completion                                             \
 	helix     helix-bash-completion     helix-fish-completion     helix-runtime                         \
 	pnpm      pnpm-bash-completion      pnpm-fish-completion                                            \
