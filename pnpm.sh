@@ -1,3 +1,5 @@
+#!/bin/bash
+
 pnpm i -g \
   bash-language-server \
   intelephense \
