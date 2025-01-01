@@ -6,7 +6,7 @@ sudo zypper in -y \
     make automake autoconf \
     ruby3.3
 
-NONINTERACTIVE=1 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 # brew requer
 brew install gcc
