@@ -12,5 +12,6 @@ sudo zypper install -y  \
 	maim                  \
 	picom                 \
 	rofi                  \
+	scrot                 \
 	xinit                 \
 	xorg-x11
