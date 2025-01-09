@@ -1,14 +1,15 @@
 #!/bin/bash
 
-sudo zypper install -y        \
+sudo zypper install -y  \
+	feh                   \
 	fira-code-fonts       \
 	fontawesome-fonts     \
 	fontawesome-fonts-web \
-	feh                   \
 	i3                    \
 	i3blocks              \
-  	i3lock                \
-  	i3status              \
+	i3lock                \
+	i3status              \
+	maim                  \
 	picom                 \
 	rofi                  \
 	xinit                 \
