@@ -12,5 +12,8 @@ sudo zypper install -y  \
 	maim                  \
 	picom                 \
 	rofi                  \
+	rofi-bluetooth        \
+	rofi-calc             \
+	rofi-network-manager  \
 	xinit                 \
 	xorg-x11
