@@ -6,9 +6,8 @@ sudo zypper install -y  \
 	fontawesome-fonts     \
 	fontawesome-fonts-web \
 	i3                    \
-	i3blocks              \
 	i3lock                \
-	i3status              \
+	i3status-rust         \
 	maim                  \
 	picom                 \
 	rofi                  \
