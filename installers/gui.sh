@@ -5,6 +5,7 @@ sudo zypper install -y  \
 	fira-code-fonts       \
 	fontawesome-fonts     \
 	fontawesome-fonts-web \
+	gammastep             \
 	i3                    \
 	i3lock                \
 	i3status-rust         \
