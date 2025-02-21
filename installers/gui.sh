@@ -9,6 +9,7 @@ sudo zypper install -y  \
 	i3                    \
 	i3lock                \
 	i3status-rust         \
+	kdeconnect-kde        \
 	maim                  \
 	picom                 \
 	rofi                  \
