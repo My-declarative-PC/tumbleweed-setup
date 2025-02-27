@@ -18,4 +18,8 @@ sudo zypper install -y \
   rofi-network-manager \
   NetworkManager-applet
 
+mkdir -p ~/.config/i3
+cp /etc/i3/config ~/.config/i3/
+echo "exec i3" | tee ~/.xinitrc
+
 exit 0

@@ -11,6 +11,10 @@ sudo zypper install -y \
   curl \
   wget \
   vim \
+  openssh \
   NetworkManager
+
+sudo systemctl enable NetworkManager
+sudo systemctl enable sshd
 
 exit 0
