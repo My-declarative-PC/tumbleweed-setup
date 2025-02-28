@@ -4,15 +4,18 @@
 
 echo "Установка базовых утилит..."
 sudo zypper install -y \
+  curl \
+  git \
   htop \
   neofetch \
-  tmux \
-  git \
-  curl \
-  wget \
-  vim \
+  NetworkManager \
   openssh \
-  NetworkManager
+  tmux \
+  vim \
+  wget \
+  xclip \
+  xclipboard \
+  xfce4-clipman-plugin
 
 sudo systemctl enable NetworkManager
 sudo systemctl enable sshd
