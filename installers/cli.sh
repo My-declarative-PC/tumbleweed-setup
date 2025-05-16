@@ -1,3 +1,8 @@
 #!/bin/bash
 
-sudo zypper install -y git yast2-docker
+sudo zypper install -y \
+    git \
+    systemd-zram-service \
+    yast2-docker
+
+sudo systemctl enable --now zramswap.service
