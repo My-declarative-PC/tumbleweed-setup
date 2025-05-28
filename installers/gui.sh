@@ -1,6 +1,8 @@
 #!/bin/bash
 
 sudo zypper install -y \
+    autorandr \
+    autorandr-bash-completion \
     feh \
     fira-code-fonts \
     fontawesome-fonts \
