@@ -3,9 +3,7 @@
 # Установка SDDM как менеджера дисплея
 
 echo "Установка SDDM..."
-sudo zypper install -y \
-  sddm \
-  sddm-branding-openSUSE
+sudo zypper install -y sddm
 
 # Активация SDDM
 echo "Активация SDDM..."

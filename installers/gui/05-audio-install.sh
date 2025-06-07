@@ -4,9 +4,10 @@
 
 echo "Установка аудио системы..."
 sudo zypper install -y \
-  alsa-utils \
-  pipewire \
-  pipewire-jack \
-  pipewire-aptx
+    alsa-utils \
+    pipewire \
+    playerctl \
+    pipewire-jack \
+    pipewire-aptx
 
 exit 0
