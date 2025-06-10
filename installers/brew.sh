@@ -4,6 +4,6 @@ sudo zypper in -y \
     procps curl file git \
     gcc gcc-c++ \
     make automake autoconf \
-    ruby3.3
+    ruby
 
 bash common/brew/setup.sh
