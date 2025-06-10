@@ -1,10 +1,12 @@
 #!/bin/bash
 
 sudo zypper install -y \
+    crun \
+    distrobox \
     docker \
     docker-bash-completion \
-    docker-fish-completion \
     docker-compose \
+    docker-fish-completion \
     docker-rootless-extras \
     yast2-docker
 
