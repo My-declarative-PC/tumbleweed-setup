@@ -2,7 +2,7 @@
 
 sudo zypper install -y \
     git \
-    iotop \
+    iotop-c \
     systemd-zram-service \
     yast2-docker
 
