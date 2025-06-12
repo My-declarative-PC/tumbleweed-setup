@@ -2,7 +2,7 @@
 
 sudo zypper install -y \
     git \
-    systemd-zram-service \
-    yast2-docker
+    htop \
+    systemd-zram-service
 
 sudo systemctl enable --now zramswap.service

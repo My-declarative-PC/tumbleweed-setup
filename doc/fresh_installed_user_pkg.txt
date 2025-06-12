@@ -1,0 +1,29 @@
+Loading repository data...
+Reading installed packages...
+S  | Repository            | Name                        | Version                  | Arch
+---+-----------------------+-----------------------------+--------------------------+-------
+i+ | Main Repository (OSS) | btrfsprogs                  | 6.14-2.1                 | x86_64
+i+ | Main Repository (OSS) | chrony                      | 4.6.1-1.2                | x86_64
+i+ | Main Repository (OSS) | dosfstools                  | 4.2-4.8                  | x86_64
+i+ | Main Repository (OSS) | e2fsprogs                   | 1.47.2-1.1               | x86_64
+i+ | Main Repository (OSS) | firewalld                   | 2.1.2-6.1                | noarch
+i+ | Main Repository (OSS) | glibc                       | 2.41-2.1                 | x86_64
+i+ | Main Repository (OSS) | grub2-x86_64-efi            | 2.12-52.1                | noarch
+i+ | Main Repository (OSS) | irqbalance                  | 1.9.4.77.git+d913f60-2.1 | x86_64
+i+ | @System               | kernel-default              | 6.15.0-1.1               | x86_64
+i+ | Main Repository (OSS) | kexec-tools                 | 2.0.30-3.2               | x86_64
+i+ | Main Repository (OSS) | mokutil                     | 0.7.2-1.2                | x86_64
+i+ | Main Repository (OSS) | NetworkManager              | 1.52.0-3.1               | x86_64
+i+ | Main Repository (OSS) | numactl                     | 2.0.19.13.g63e0223-1.1   | x86_64
+i+ | @System               | openSUSE-release            | 20250606-3549.1          | x86_64
+i+ | Main Repository (OSS) | os-prober                   | 1.81-2.8                 | x86_64
+i+ | Main Repository (OSS) | patterns-base-base          | 20241218-9.1             | x86_64
+i+ | Main Repository (OSS) | patterns-base-enhanced_base | 20241218-9.1             | x86_64
+i+ | Main Repository (OSS) | patterns-base-selinux       | 20241218-9.1             | x86_64
+i+ | Main Repository (OSS) | patterns-base-x11           | 20241218-9.1             | x86_64
+i+ | Main Repository (OSS) | patterns-desktop-mobile     | 20201106-5.1             | x86_64
+i+ | Main Repository (OSS) | patterns-xfce-xfce          | 20230212-4.5             | x86_64
+i+ | Main Repository (OSS) | patterns-yast-x11_yast      | 20220411-1.9             | x86_64
+i+ | Main Repository (OSS) | patterns-yast-yast2_basis   | 20220411-1.9             | x86_64
+i+ | Main Repository (OSS) | shim                        | 15.8-4.1                 | x86_64
+i+ | Main Repository (OSS) | snapper                     | 0.12.2-2.2               | x86_64
