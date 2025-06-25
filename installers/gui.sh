@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sudo zypper remove -y libjack0
 sudo zypper install -y \
     autorandr \
     autorandr-bash-completion \

@@ -7,8 +7,7 @@ sudo zypper install -y \
     docker-bash-completion \
     docker-compose \
     docker-fish-completion \
-    docker-rootless-extras \
-    yast2-docker
+    docker-rootless-extras
 
 sudo systemctl enable --now docker.service
 sudo systemctl enable --now docker.socket
