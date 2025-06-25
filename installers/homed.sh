@@ -9,5 +9,7 @@ sudo homectl create timofey \
     --luks-discard=true \
     --luks-offline-discard=true \
     --auto-resize-mode="shrink-and-grow" \
+    --disk-size="50%" \
+    --language en_US.UTF-8 \
     --ssh-authorized-keys=$HOME/.ssh/authorized_keys \
     --member-of=wheel,docker,audio,video
