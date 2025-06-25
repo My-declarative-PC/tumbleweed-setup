@@ -1,10 +1,13 @@
 #!/bin/bash
 
-sudo zypper install -y \
-    fscrypt \
-    pam-fscrypt \
-    systemd-homed
-
+sudo zypper install -y systemd-homed
 sudo systemctl enable --now systemd-homed.service
-sudo systemctl enable --now systemd-homed-firstboot.service
-sudo homectl create timofey --storage=fscrypt --member-of=wheel,docker,audio,video
+
+sudo homectl create timofey \
+    --storage=luks \
+    --fs-type=btrfs \
+    --luks-discard=true \
+    --luks-offline-discard=true \
+    --auto-resize-mode="shrink-and-grow" \
+    --ssh-authorized-keys=$HOME/.ssh/authorized_keys \
+    --member-of=wheel,docker,audio,video
