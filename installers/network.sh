@@ -2,8 +2,9 @@
 
 sudo zypper install -y \
     NetworkManager \
-    NetworkManager-applet-fortisslvp \
-    NetworkManager-applet-openconnec \
+    NetworkManager-applet \
+    NetworkManager-applet-fortisslvpn \
+    NetworkManager-applet-openconnect \
     NetworkManager-applet-openvpn \
     NetworkManager-openvpn \
     openvpn

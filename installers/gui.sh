@@ -6,9 +6,6 @@ sudo zypper install -y \
     autorandr-bash-completion \
     dunst \
     feh \
-    fira-code-fonts \
-    fontawesome-fonts \
-    fontawesome-fonts-web \
     gammastep \
     i3 \
     i3lock \
@@ -26,6 +23,9 @@ sudo zypper install -y \
     rofi-bluetooth \
     rofi-calc \
     rofi-network-manager \
+    thunar \
+    thunar-archive-plugin \
+    thunar-shares-plugin \
     wezterm \
     xinit \
     xorg-x11 \
