@@ -26,6 +26,7 @@ sudo zypper install -y \
     thunar \
     thunar-archive-plugin \
     thunar-shares-plugin \
+    upower \
     wezterm \
     xinit \
     xorg-x11 \
