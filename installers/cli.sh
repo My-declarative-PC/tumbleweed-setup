@@ -4,7 +4,7 @@ sudo zypper install -y \
     git \
     htop \
     iotop-c \
-    osc \
+    opi \
     systemd-zram-service
 
 sudo systemctl enable --now zramswap.service
