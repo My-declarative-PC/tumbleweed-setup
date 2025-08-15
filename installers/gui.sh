@@ -1,9 +1,9 @@
 #!/bin/bash
 
-sudo zypper remove -y libjack0
 sudo zypper install -y \
     autorandr \
     autorandr-bash-completion \
+    blueman \
     dunst \
     feh \
     gammastep \
@@ -19,15 +19,14 @@ sudo zypper install -y \
     picom \
     pipewire-jack \
     playerctl \
-    rofi \
-    rofi-bluetooth \
-    rofi-calc \
-    rofi-network-manager \
-    thunar \
-    thunar-archive-plugin \
-    thunar-shares-plugin \
     upower \
     wezterm \
     xinit \
     xorg-x11 \
     xsettingsd
+
+bash ./flatpak.sh
+bash ./fonts.sh
+bash ./network.sh
+bash ./rofi.sh
+bash ./thunar.sh

@@ -7,4 +7,7 @@ sudo zypper install -y \
     opi \
     systemd-zram-service
 
+bash ./brew.sh
+bash ./docker.sh
+
 sudo systemctl enable --now zramswap.service
