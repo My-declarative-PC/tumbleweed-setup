@@ -3,7 +3,6 @@
 sudo zypper install -y \
     autorandr \
     autorandr-bash-completion \
-    blueman \
     dunst \
     feh \
     gammastep \
@@ -30,3 +29,4 @@ bash ./fonts.sh
 bash ./network.sh
 bash ./rofi.sh
 bash ./thunar.sh
+bash ./bluetooth.sh
