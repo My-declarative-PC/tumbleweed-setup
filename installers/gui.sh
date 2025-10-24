@@ -18,6 +18,7 @@ sudo zypper install -y \
     picom \
     pipewire-jack \
     playerctl \
+    polkit-gnome \
     upower \
     wezterm \
     xinit \
