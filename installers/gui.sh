@@ -23,6 +23,7 @@ sudo zypper install -y \
     wezterm \
     xinit \
     xorg-x11 \
+    xrdp \
     xsettingsd
 
 bash ./flatpak.sh
@@ -31,3 +32,5 @@ bash ./network.sh
 bash ./rofi.sh
 bash ./thunar.sh
 bash ./bluetooth.sh
+
+sudo systemctl enable --now xrdp
