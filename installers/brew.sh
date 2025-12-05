@@ -1,9 +1,15 @@
 #!/bin/bash
 
 sudo zypper in -y \
-    procps curl file git \
-    gcc gcc-c++ \
-    make automake autoconf \
+    autoconf \
+    automake \
+    curl \
+    file \
+    gcc \
+    gcc-c++ \
+    git \
+    make \
+    procps \
     ruby
 
 bash common/brew/setup.sh
