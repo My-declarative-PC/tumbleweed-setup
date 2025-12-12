@@ -30,7 +30,7 @@ bash ./flatpak.sh
 bash ./fonts.sh
 bash ./network.sh
 bash ./rofi.sh
-bash ./thunar.sh
+bash ./nemo.sh
 bash ./bluetooth.sh
 
 sudo systemctl enable --now xrdp
