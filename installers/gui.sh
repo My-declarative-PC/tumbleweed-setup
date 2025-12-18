@@ -19,6 +19,8 @@ sudo zypper install -y \
     pipewire-jack \
     playerctl \
     polkit-gnome \
+    python313 \
+    python313-xkbgroup \
     upower \
     wezterm \
     xinit \
