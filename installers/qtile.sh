@@ -1,7 +1,7 @@
 #!/bin/bash
 
-sudo zypper install -y \
-    python3.13-iwlib \
-    qtile
+sudo wget https://raw.githubusercontent.com/qtile/qtile/refs/heads/master/resources/qtile.desktop \
+    -O /usr/share/xsessions/qtile.desktop
 
-pip install catppuccin --break-system-packages
+sudo wget https://raw.githubusercontent.com/qtile/qtile/refs/heads/master/resources/99-qtile.rules \
+    -O /etc/udev/rules.d/99-qtile.rules
