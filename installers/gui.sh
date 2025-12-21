@@ -26,6 +26,7 @@ sudo zypper install -y \
     xrdp \
     xsettingsd
 
+bash ./qtile.sh
 bash ./flatpak.sh
 bash ./fonts.sh
 bash ./network.sh
