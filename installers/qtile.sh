@@ -1,5 +1,5 @@
 #!/bin/bash
 
 bash common/uv/setup.sh
-bash common/uv/desktop.sh
-bash common/uv/udev-rule.sh
+bash common/qtile/desktop.sh
+bash common/qtile/udev-rule.sh
