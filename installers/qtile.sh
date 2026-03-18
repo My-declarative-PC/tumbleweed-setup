@@ -2,7 +2,6 @@
 
 ## X11
 sudo zypper install \
-    python311-devel \
     libffi-devel \
     cairo-devel \
     pango-devel \
