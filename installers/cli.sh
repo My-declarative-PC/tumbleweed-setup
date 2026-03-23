@@ -5,9 +5,14 @@ sudo zypper install -y \
     htop \
     iotop-c \
     opi \
-    systemd-zram-service
+    rebootmgr \
+    systemd-zram-service \
+    transactional-update
 
 bash ./brew.sh
 bash ./docker.sh
 
+sudo systemctl enable --now rebootmgr.service
+sudo systemctl enable --now transactional-update-cleanup.timer
+sudo systemctl enable --now transactional-update.timer
 sudo systemctl enable --now zramswap.service
