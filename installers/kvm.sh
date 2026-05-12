@@ -1,18 +1,14 @@
 #!/bin/bash
+set -e
 
-sudo zypper install -y \
-    git \
-    htop \
-    iotop-c \
-    opi \
-    rebootmgr \
-    systemd-zram-service \
-    transactional-update
+echo "Installing KVM..."
+sudo zypper in -t pattern kvm_server kvm_tools
+sudo zypper in qemu-ovmf-x86_64 # требуется для работы lima
 
-bash ./brew.sh
-bash ./docker.sh
+# Добавить текущего пользователя в группу libvirt, чтобы не требовался sudo
+sudo usermod -aG libvirt "$USER"
 
-sudo systemctl enable --now rebootmgr.service
-sudo systemctl enable --now transactional-update-cleanup.timer
-sudo systemctl enable --now transactional-update.timer
-sudo systemctl enable --now zramswap.service
+# Включить и запустить сервис
+sudo systemctl enable --now libvirtd
+
+echo "KVM installed. Re-login for group changes to take effect."
