@@ -10,6 +10,7 @@ sudo zypper install -y \
     transactional-update
 
 bash ./brew.sh
+bash ./kvm.sh
 bash ./docker.sh
 
 sudo systemctl enable --now rebootmgr.service
